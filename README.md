@@ -9,7 +9,7 @@ Este repositorio contiene código y recursos relacionados con el desarrollo util
 ## Características
 
 - Basado en Python.
-- Preparado para desarrollo de aplicaciones web con Django.
+- Preparado para desarrollo de aplicaciones web con Django Api con Django Rest framework.
 - Estructura flexible para múltiples proyectos o experimentos.
 
 ## Estructura del repositorio
@@ -29,10 +29,7 @@ Este repositorio contiene código y recursos relacionados con el desarrollo util
 
 - [Documentación oficial de Django](https://docs.djangoproject.com/es/)
 
-## Licencia
 
-Actualmente este repositorio no tiene una licencia explícita. Por favor consulta con el autor para usos específicos.
+## Link
 
-## Autor
-
-- [davgar2023](https://github.com/davgar2023)
+- (https://django-simple-crud-test.onrender.com/api/projects/)
