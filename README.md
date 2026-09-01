@@ -1,10 +1,12 @@
 # Django
 
+[![License](https://img.shields.io/github/license/davgar2023/Django)](https://github.com/davgar2023/Django/blob/main/LICENSE) [![GitHub stars](https://img.shields.io/github/stars/davgar2023/Django?style=social)](https://github.com/davgar2023/Django/stargazers) [![Issues](https://img.shields.io/github/issues/davgar2023/Django)](https://github.com/davgar2023/Django/issues) [![Pull Requests](https://img.shields.io/github/issues-pr/davgar2023/Django)](https://github.com/davgar2023/Django/pulls) [![Repo Size](https://img.shields.io/github/repo-size/davgar2023/Django)](https://github.com/davgar2023/Django) [![Commit Activity](https://img.shields.io/github/commit-activity/m/davgar2023/Django)](https://github.com/davgar2023/Django/graphs/commit-activity) [![Language](https://img.shields.io/badge/language-Python-blue?logo=python)](https://www.python.org/) [![Live Demo](https://img.shields.io/website?url=https%3A%2F%2Fdjango-simple-crud-test.onrender.com%2Fapi%2Fprojects%2F)](https://django-simple-crud-test.onrender.com/api/projects/)
+
 Public repository for projects and experiments developed with Django in Python.
 
 ## Description
 
-This repository contains code and resources related to development using the Django framework. It serves as a starting point for projects, tests, and examples that can be useful for developers working with Django and Python.
+This repository contains code and resources related to development using the Django framework. It serves as a starting point for projects, tests, and examples that can be useful for developers work[...]
 
 ## Features
 
@@ -22,7 +24,7 @@ This repository contains code and resources related to development using the Dja
 
 ## Repository Structure
 
-The specific structure of folders and files will depend on the projects hosted. It is recommended to follow Django's standard conventions for organizing applications, configurations, and project files.
+The specific structure of folders and files will depend on the projects hosted. It is recommended to follow Django's standard conventions for organizing applications, configurations, and project f[...]
 
 ### Typical Django Project Structure
 ```
