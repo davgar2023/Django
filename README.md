@@ -1,35 +1,119 @@
 # Django
 
-Repositorio público para proyectos y experimentos desarrollados con Django en Python.
+Public repository for projects and experiments developed with Django in Python.
 
-## Descripción
+## Description
 
-Este repositorio contiene código y recursos relacionados con el desarrollo utilizando el framework Django. Es un punto de partida para proyectos, pruebas y ejemplos que pueden ser útiles para quienes desean explorar o aprender sobre Django.
+This repository contains code and resources related to development using the Django framework. It serves as a starting point for projects, tests, and examples that can be useful for developers working with Django and Python.
 
-## Características
+## Features
 
-- Basado en Python.
-- Preparado para desarrollo de aplicaciones web con Django Api con Django Rest framework.
-- Estructura flexible para múltiples proyectos o experimentos.
+- **Language**: Python (98.4%)
+- **Framework**: Django with Django REST Framework for API development
+- **Flexible Structure**: Designed to host multiple projects or experiments
+- **Web Application Development**: Focused on building scalable web applications and REST APIs
 
-## Estructura del repositorio
+## Technology Stack
 
-> La estructura específica de carpetas y archivos dependerá de los proyectos alojados. Se recomienda seguir las convenciones estándar de Django para la organización de aplicaciones, configuraciones y recursos estáticos.
+- **Backend Framework**: Django
+- **API Framework**: Django REST Framework
+- **Language**: Python 3.x
+- **Database**: Configurable (PostgreSQL, MySQL, SQLite, etc.)
 
-## Cómo empezar
+## Repository Structure
 
-1. Clona este repositorio:
-   ```sh
+The specific structure of folders and files will depend on the projects hosted. It is recommended to follow Django's standard conventions for organizing applications, configurations, and project files.
+
+### Typical Django Project Structure
+```
+project/
+├── manage.py
+├── project/
+│   ├── __init__.py
+│   ├── settings.py
+│   ├── urls.py
+│   └── wsgi.py
+├── apps/
+│   ├── app1/
+│   ├── app2/
+│   └── ...
+├── requirements.txt
+└── README.md
+```
+
+## Getting Started
+
+### Prerequisites
+- Python 3.8 or higher
+- pip (Python package manager)
+- Virtual environment (recommended)
+
+### Installation
+
+1. Clone this repository:
+   ```bash
    git clone https://github.com/davgar2023/Django.git
+   cd Django
    ```
-2. Instala las dependencias necesarias (se recomienda usar un entorno virtual).
-3. Sigue la documentación de Django para crear o iniciar tus propios proyectos dentro de la carpeta.
 
-## Recursos útiles
+2. Create and activate a virtual environment:
+   ```bash
+   python -m venv venv
+   source venv/bin/activate  # On Windows: venv\Scripts\activate
+   ```
 
-- [Documentación oficial de Django](https://docs.djangoproject.com/es/)
+3. Install the required dependencies:
+   ```bash
+   pip install -r requirements.txt
+   ```
 
+4. Run migrations (if applicable):
+   ```bash
+   python manage.py migrate
+   ```
 
-## Link
+5. Start the development server:
+   ```bash
+   python manage.py runserver
+   ```
 
-- (https://django-simple-crud-test.onrender.com/api/projects/)
+## Usage
+
+Follow Django's official documentation to create or initialize your own projects within this repository. Each project should have its own app structure and configuration.
+
+## Useful Resources
+
+- [Django Official Documentation](https://docs.djangoproject.com/)
+- [Django REST Framework Documentation](https://www.django-rest-framework.org/)
+- [Python Official Documentation](https://docs.python.org/)
+- [Django Community](https://www.djangoproject.com/community/)
+
+## Project Links
+
+- **Live Demo**: [Django Simple CRUD Test](https://django-simple-crud-test.onrender.com/api/projects/)
+
+## License
+
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contributing
+
+Contributions are welcome! Please follow these steps:
+
+1. Fork the repository
+2. Create a new branch (`git checkout -b feature/your-feature`)
+3. Make your changes and commit them (`git commit -m 'Add some feature'`)
+4. Push to the branch (`git push origin feature/your-feature`)
+5. Open a Pull Request
+
+## Author
+
+Created by [davgar2023](https://github.com/davgar2023)
+
+## Support
+
+For issues, questions, or suggestions, please open an [issue](https://github.com/davgar2023/Django/issues) on the repository.
+
+---
+
+**Last Updated**: September 1, 2026
